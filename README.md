@@ -29,6 +29,30 @@ BackFree is a Django-based web application that allows users to upload images an
 * **Storage:** Django FileSystemStorage
 
 ---
+## 🎥 Demo Video
+
+click on image for watching the demo video!
+
+[![Watch the Demo](https://github.com/abdullahfahim2/BackFree/blob/fahim/static/images/backfree%20(1).png?raw=true)](https://github.com/abdullahfahim2/BackFree/raw/fahim/static/videos/backfree.mp4)
+
+
+---
+## 🖥️ Screenshots (Laptop & Mobile View)
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Laptop View</strong><br>
+      <img src="https://github.com/abdullahfahim2/BackFree/blob/fahim/static/images/backfree%20(1).png?raw=true" width="400"/>
+    </td>
+    <td align="center">
+      <strong>Mobile View</strong><br>
+      <img src="https://github.com/abdullahfahim2/BackFree/blob/fahim/static/images/iPhone-13-PRO-127.0.0.1%20(1).png?raw=true" width="250"/>
+    </td>
+  </tr>
+</table>
+
+---
 
 ## 📁 Folder Structure (important parts)
 
