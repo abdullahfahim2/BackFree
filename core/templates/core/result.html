@@ -1,0 +1,40 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Your Processed Image | BackFree{% endblock %}
+
+{% block content %}
+<section class="py-20">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold mb-4">Your Background-Free Image</h1>
+            <p class="text-xl text-gray-600">Download your processed image below</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="glass rounded-2xl overflow-hidden">
+                <div class="p-4 bg-white bg-opacity-50 text-center">
+                    <h3 class="font-semibold">Original Image</h3>
+                </div>
+                <img src="{{ original_image }}" alt="Original Image" loading="lazy" class="w-full h-auto">
+            </div>
+            <div class="glass rounded-2xl overflow-hidden">
+                <div class="p-4 bg-white bg-opacity-50 text-center">
+                    <h3 class="font-semibold">Processed Image</h3>
+                </div>
+                <img src="{{ processed_image }}" alt="Processed Image" loading="lazy" class="w-full h-auto">
+            </div>
+        </div>
+
+        <div class="text-center">
+            <a href="{{ processed_image }}" download
+                class="inline-block bg-primary text-white px-8 py-4 rounded-xl font-bold hover:bg-opacity-90 transition shadow-lg hover:shadow-xl">
+                <i class="fas fa-download mr-2"></i> Download PNG
+            </a>
+            <a href="{% url 'home' %}#upload"
+                class="ml-4 inline-block glass px-8 py-4 rounded-xl font-bold hover:bg-opacity-50 transition shadow-lg">
+                <i class="fas fa-redo mr-2"></i> Process Another
+            </a>
+        </div>
+    </div>
+</section>
+{% endblock %}
