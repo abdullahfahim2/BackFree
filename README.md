@@ -3,13 +3,13 @@
 BackFree is a Django-based web application that allows users to upload images and automatically remove their backgrounds using AI (via the `rembg` library). It offers a clean UI built with Tailwind CSS and provides instant download of processed transparent PNGs.
 
 ---
-
+<!--
 ## 🖼️ Live Preview
 
 🧪 **Coming soon:** 
 
 ---
-
+-->
 ## 🌟 Features
 
 * ✨ AI-powered background removal with `rembg`
